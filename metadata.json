@@ -1,0 +1,6 @@
+{
+  "name": "ExitTube",
+  "description": "ExitTube - Engineered for Transparency & Utility by PenthuX Agency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
