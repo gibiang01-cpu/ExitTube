@@ -350,18 +350,6 @@ export default function App() {
         )}
       </header>
 
-      {/* <!-- Google AdSense Responsive Unit - Top Banner --> */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-6 w-full">
-        <div className="w-full min-h-[90px] bg-slate-900/40 border border-white/10 rounded-2xl flex flex-col items-center justify-center p-4 text-center text-slate-500 font-mono text-xs relative overflow-hidden backdrop-blur-sm">
-          <span className="text-[10px] tracking-widest text-slate-500 uppercase font-bold mb-1">SPONSORED / ADVERTISEMENT</span>
-          <div className="flex items-center gap-2 text-slate-400">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span>Google AdSense Responsive Header Unit (728x90)</span>
-          </div>
-          <p className="text-[10px] text-slate-600 mt-1">Non-intrusive container reserved for monetized display units</p>
-        </div>
-      </div>
-
       {/* ----------------- 2. HERO SECTION (Bento Grid) ----------------- */}
       <main id="tools" className="flex-1 relative py-6 px-4 sm:px-6 lg:px-8 flex flex-col justify-center">
         
@@ -594,14 +582,7 @@ export default function App() {
               {/* Extracted Asset Preview Drawer */}
               {extractedAsset && (
                 <div className="mt-6 bg-black/40 border border-white/20 rounded-2xl p-5 backdrop-blur-md animate-in fade-in zoom-in-95 duration-200">
-                  
-                  {/* <!-- Google AdSense Inline Banner --> */}
-                  <div className="mb-4">
-                    <div className="w-full min-h-[80px] bg-black/30 border border-white/10 rounded-xl p-3 flex flex-col items-center justify-center text-center font-mono text-[10px] text-red-200/60">
-                      <span className="uppercase tracking-widest text-red-300/40 font-bold mb-1">SPONSORED INLINE UNIT</span>
-                      <span>Google AdSense Dynamic Asset Feed Ad Slot</span>
-                    </div>
-                  </div>
+                
 
                   <div className="flex flex-col sm:flex-row gap-4 items-start mb-4">
                     {/* Thumbnail Preview */}
@@ -735,14 +716,7 @@ export default function App() {
         </div>
       </main>
 
-      {/* <!-- Google AdSense Responsive Unit - Native Mid-Page --> */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-8 py-4 w-full">
-        <div className="w-full min-h-[120px] bg-gradient-to-r from-slate-900/60 via-slate-900/80 to-slate-900/60 border border-white/10 rounded-2xl p-6 flex flex-col items-center justify-center text-center text-slate-500 font-mono text-xs relative overflow-hidden backdrop-blur-sm">
-          <span className="text-[10px] tracking-widest text-slate-500 uppercase font-bold mb-1">ADVERTISEMENT SLOT</span>
-          <p className="text-slate-300 font-medium text-sm my-1">Google AdSense Native In-Feed Unit Placement</p>
-          <p className="text-[10px] text-slate-600">Optimized spacing between hero tools and agency value propositions</p>
-        </div>
-      </div>
+     
 
       {/* ----------------- 3. VALUE PROPS & FOOTER ----------------- */}
       <section className="bg-slate-950 text-white py-12 px-4 sm:px-6 lg:px-8 border-t border-white/10 relative">
